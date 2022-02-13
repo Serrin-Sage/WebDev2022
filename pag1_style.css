@@ -16,7 +16,6 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    
 }
 
 .header {
@@ -45,8 +44,8 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 2rem;
 }
 
 .nav__container {
@@ -82,14 +81,10 @@ ul {
   }
 
   li a:hover{
-      background-color: rgb(138, 138, 138);
+      background-color: rgb(165, 165, 165);
       color: white;
   }
 
   li:last-child {
     border-bottom: none;
-  }
-
-  .main__page--image {
-      margin: 1rem;
   }
