@@ -6,30 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assigment#1</title>
     <link rel="stylesheet" href="mainpage.css">
+    <script src="main_js.js"></script>
 </head>
 <body style="overflow: visible;">
     <div class="user__view">
         <div class="header">
             <div class="header__title">
-                <h1 class="title">Assignment#1</h1>
+                <h1 class="title">Main Page</h1>
             </div> 
         </div> 
         <div class="main__page">
              <div class="nav__container">
-                <div class="nav__menu">
-                    <ul>
-                        <li><a href="mainpage.html">Main Page</a></li>
-                        <li><a href="page1.html">Page 1</a></li>
-                        <li><a href="">Page 2</a></li>
-                        <li><a href="">Page 3</a></li>
-                        <li><a href="">Page 4</a></li>
-                    </ul>
-                </div>
                 <div class="main__page--image">
                     <div class="image__container">
-                        <img src="images/BMO_small.png" alt="BMO Picture">
+                        <img src="images/holy_trinity.png" alt="CSS,HTML,JS">
+                    </div>
+                    <div class="image__description">
+                        <button onclick="myFunction()" class="dropbtn">Learn More</button>
+                        <div id="dropdown" class="dropdown__content">
+                            <div class="description">
+                                <div class="dropdown__title">
+                                    Assignment#1: 5 Webpages (1 main, 4 additional)
+                                </div>
+                                
+                                This is the main page, you can navigate to the other pages by clicking the desired page below. Each page describes a character from various media that I am fond of.
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="nav__menu">
+                    <ul>
+                        <li><a href="page1.html">BMO</a></li>
+                        <li><a href="">Portal</a></li>
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Hunter</a></li>
+                    </ul>
+                </div>
+                
              </div>
         </div>
     </div>
