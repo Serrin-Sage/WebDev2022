@@ -5,31 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page1:Assigment#1</title>
-    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="page1_style.css">
+    <script src="main_js.js"></script>
 </head>
 <body style="overflow: visible;">
     <div class="user__view">
         <div class="header">
             <div class="header__title">
-                <h1 class="title">Page #1</h1>
+                <h1 class="title">BMO</h1>
             </div> 
         </div> 
         <div class="main__page">
              <div class="nav__container">
+                <div class="main__page--image">
+                    <div class="image__container">
+                        <img src="images/BMO_small.png" alt="BMO Picture">
+                    </div>
+                    <div class="image__description">
+                        <button onclick="myFunction()" class="dropbtn">About BMO</button>
+                        <div id="dropdown" class="dropdown__content">
+                            <div class="description">
+                                <div class="dropdown__title">
+                                    This is BMO
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="nav__menu">
                     <ul>
                         <li><a href="mainpage.html">Main Page</a></li>
-                        <li><a href="page1.html">Page 1</a></li>
                         <li><a href="">Page 2</a></li>
                         <li><a href="">Page 3</a></li>
                         <li><a href="">Page 4</a></li>
                     </ul>
                 </div>
-                <div class="main__page--image">
-                    <div class="image__container">
-                        <img src="images/companion_cube.png" alt="BMO Picture">
-                    </div>
-                </div>
+                
              </div>
         </div>
     </div>
