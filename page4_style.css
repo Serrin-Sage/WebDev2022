@@ -42,8 +42,8 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
 
-    background-color: rgb(0, 126, 98);
-    background-image: linear-gradient(50deg, #33bbb4, rgb(0, 112, 69));
+    background-color: rgb(131, 141, 139);
+    background-image: linear-gradient(45deg, #c70000, rgb(8, 129, 243));
         
     background-size: 100%;
     background-repeat: repeat;
@@ -76,9 +76,12 @@ body {
 
 /*Image container and description*/
 .image__container {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
+.vader__img {
+    border-radius: 20%;
+}
 .main__page--image {
     margin-top: 1rem;
     display: flex;
@@ -100,6 +103,7 @@ body {
     margin-bottom: 1rem;
     text-decoration: underline;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .dropbtn {
@@ -123,13 +127,12 @@ body {
     background-color: aliceblue;
     min-width: 160px;
     width: 400px;
-    overflow-y: auto;
+    overflow-y: scroll;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.438);
     z-index: 1;
     text-align: center;
-    animation: growDown 0.6s ease-in-out;
+    animation: growDown 0.35s linear;
     transform-origin: top center;
-    
 }
 
 .description {
@@ -141,19 +144,23 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.bmo__link {
-    padding-bottom: 1rem;
-    color: #1cc2ba;
+.star-wars__link {
+    font-size: 18px;
+    padding-bottom: 2rem;
+    color: #ca0303;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.bmo__link:hover{
-    color: #116d68;
+.star-wars__link:hover {
+    color: rgb(0, 81, 255);
 }
+
+
 
 .show {
     display: block;
+    transition: ease-in-out 1s;
 }
 
 @keyframes growDown {
@@ -161,10 +168,10 @@ body {
         height: 0px;
     }
     to {
-        height: 300px;
+        height: 400px;
     }
   }
-  
+
 /*Menu for navigating between pages*/
 .nav_menu {
     height: 50px;
@@ -208,7 +215,8 @@ ul {
     border-bottom: none;
   }
 
-/*Customized scrollbar
+
+  /*Customized scrollbar
   Borrowed From: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 */
 ::-webkit-scrollbar {
