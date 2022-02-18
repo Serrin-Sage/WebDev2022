@@ -43,7 +43,7 @@ body {
     font-size: 40px;
 
     background-color: rgb(131, 141, 139);
-    background-image: linear-gradient(45deg, #c70000, rgb(0, 182, 39));
+    background-image: linear-gradient(45deg, #c70000, rgb(8, 129, 243));
         
     background-size: 100%;
     background-repeat: repeat;
@@ -144,16 +144,16 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.loz__link {
+.star-wars__link {
     font-size: 18px;
     padding-bottom: 2rem;
-    color: #03ca45;
+    color: #ca0303;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.loz__link:hover {
-    color: gold;
+.star-wars__link:hover {
+    color: rgb(0, 81, 255);
 }
 
 
@@ -168,7 +168,7 @@ body {
         height: 0px;
     }
     to {
-        height: 410px;
+        height: 400px;
     }
   }
 
